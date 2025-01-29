@@ -1,0 +1,202 @@
+.gameframebig{
+   height: 400px;
+  width: 400px;
+  border-radius: 15px;
+  cursor: cell;
+  text-decoration: none;
+  align-items: center;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  align-content: center;
+}
+.gameframebig img{
+  height: 396px;
+  width: 396px;
+
+  border-radius: 15px;
+  transition: transform 0.35s;
+  loading: lazy;
+
+
+}
+.gameframebig img:hover{
+  transform: scale(0.925);
+  box-shadow: 0 0 0 3px var(--color-1);
+  background-color: var(--color-1);
+  filter: brightness(0.85); 
+}
+.gameframebigtext{
+  display: none;
+  clear: both;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+  margin:0;
+  top:50%;
+  transform:translateY(-50%);
+}
+
+.gameframe{
+   height: 240px;
+  width: 240px;
+  border-radius: 15px;
+  cursor: cell;
+  text-decoration: none;
+  align-items: center;
+  display: inline-block;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  align-content: center;
+}
+.gameframe img{
+  height: 216px;
+  width: 216px;
+
+  border-radius: 15px;
+  transition: transform 0.35s;
+  loading: lazy;
+
+
+}
+.gameframe img:hover{
+  transform: scale(0.925);
+  box-shadow: 0 0 0 3px var(--color-1);
+  background-color: var(--color-1);
+  filter: brightness(0.85); 
+}
+.gameframetext{
+  display: none;
+  clear: both;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+  margin:0;
+  top:50%;
+  transform:translateY(-50%);
+}
+
+  .gameframetext:hover {
+  display: block;
+  opacity: 1;
+}
+.rotatating-text{
+  position: absolute; /* Position text over the image */
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Adjust positioning */
+  color: white; /* Text color */
+  font-size: 20px; /* Adjust font size */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Optional shadow for readability */
+}
+.gamesbutton{
+  color: var(--color-2);
+  align-items: center;
+  justify-content: center;
+  margin: 4px 2px;
+  font-weight: 400;
+  cursor: cell;
+  height: 3em;
+  width: 8em;
+  display: flex;
+    transition-duration: .25s;
+    text-decoration: none;
+  border: 2px solid var(--color-2);
+    border-radius: 1em;
+  opacity: 1;
+  background: var(--button-bg1);
+  animation: gradient 2s ease infinite;
+  float: right;
+  overflow-y: hidden;
+  padding-left: 10px;
+}
+.gamesbutton:hover{
+height: 3.1em;
+width: 8.2em;
+opacity: 0.8;}
+.gameframe_moregames{
+float: right;
+    bottom: 0px;
+    top: 0px;
+    height: 100%;
+    position: sticky;
+   width: 420px;
+    transition-duration: .25s;
+    overflow: hidden;
+    filter: drop-shadow(0px 0px 5px var(--color-4));
+    z-index: 1000000;
+}
+.gameUIbar{
+  align-items: center; justify-content: center;background-color: #d0d0d0; width: 55%; height: 55px; border-bottom-left-radius: 30px; border-bottom-right-radius: 30px; box-shadow: 0 0 0 3px #d0d0d0;
+}
+.gameUIbutton{
+  float: right;
+  height: 35px;
+  width: 35px;
+  padding: 10px;
+  padding-right: 15px;
+  border-radius: 6px;
+  transition-duration: 0.125s;
+}
+.gameUIbutton:hover{
+float: right;
+height: 45px;
+width: 45px;
+padding: 5px;
+padding-right: 10px;
+border-radius: 6px;
+}
+.pausedButton{
+  color: var(--color-2);
+  align-items: center;
+  justify-content: left;
+  font-weight: 400;
+  cursor: cell;
+  height: 4em;
+  width: 12em;
+  display: flex;
+  transition-duration: .25s;
+  text-decoration: none;
+  border: 2px solid var(--color-2);
+  border-radius: 1em;
+  opacity: 1;
+  background: var(--button-bg1);
+  animation: gradient 2s ease infinite;
+  overflow-y: hidden;
+  top: 48%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin: 0;
+  position: absolute;
+}
+.pausedButton:hover{
+height: 4.1em;
+width: 12.3em;
+opacity: 0.8;}
+.gameframe_frame{
+  background-color: #d0d0d0;  width: 55%; height: 55%; box-shadow: 0 0 0 3px #d0d0d0;  transform: translateY(0px);
+  
+}
+.gameframe_frame::-webkit-scrollbar {
+  display: none;
+}
+
+.gameframe_frame {
+  -ms-overflow-style: none;  
+  scrollbar-width: none;  
+}
+gameframe-framediv{
+  background-color: #d0d0d0;  width: 55%; height: 55%; box-shadow: 0 0 0 3px #d0d0d0; border-top-left-radius: 30px; border-top-right-radius: 30px; transform: translateY(0px); overflow: hidden;
+  display: inline-block;
+}
