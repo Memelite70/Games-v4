@@ -36,3 +36,9 @@ var script = document.createElement('script');
   
         gtag('config', 'G-JKFFWENNV0');
         console.log('Google Analytics Loaded');}
+
+var link = document.createElement('link');
+link.rel = "stylesheet";
+link.href = "/assets/styles/css/game-insert.css";
+var body = document.querySelector("head");
+body.appendChild(link);

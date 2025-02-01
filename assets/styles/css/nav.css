@@ -4,7 +4,6 @@
   justify-content: left;
   margin: 4px 2px;
   font-weight: 400;
-  cursor: cell;
   height: 3em;
   width: 3em;
   display: flex;
@@ -17,6 +16,10 @@
   animation: gradient 2s ease infinite;
   float: left;
   overflow-y: hidden;
+cursor: url("/assets/svg/ui/cursor-crosshair1.cur"), default;
+}
+.navlink1 img{
+    cursor: url("/assets/svg/ui/cursor-crosshair1.cur"), default;
 }
 .navlink1:hover{
 height: 3.1em;

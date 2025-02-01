@@ -40,3 +40,8 @@ html {
   font-weight: 714;
   font-style: normal;
 }
+
+
+html, body {
+    cursor: url("/assets/svg/ui/cursor-crosshair1.cur"), default;
+    }
