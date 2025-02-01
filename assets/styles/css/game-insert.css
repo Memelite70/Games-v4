@@ -1,4 +1,4 @@
 
-html, body, canvas, #gameContainer, .webgl-content,  #container, #phaser-canvas {
+html, body, canvas, #gameContainer, .webgl-content, #canvas, #container, #phaser-canvas {
     cursor: url("/assets/svg/ui/cursor-crosshair1.cur"), default;
 }
