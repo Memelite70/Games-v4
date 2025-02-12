@@ -18,6 +18,14 @@
       height: 610px;
       cursor: cell;
 }
+html, body, #content{
+background: url("/assets/bg-blue.jpg");
+  background-size: cover;
+}
+html{
+width: 100%;
+height: 100%;
+}
 </style>
 
    <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -35,9 +43,9 @@ document.addEventListener("DOMContentLoaded", function() {
 </head>
 <body style='font-family: "Poppins", sans-serif;'>
    <div id="header"></div> 
-   <div id="content">
+   <div style="background: url("/assets/bg-blue.jpg"); background-size: cover;" id="content">
 
-      <form class="searchbar" id="uv-form">
+      <form style="background: url("/assets/bg-blue.jpg"); background-size: cover;" class="searchbar" id="uv-form">
          <h1 class='title-uv'>Proxy</h1>
          <h2>Search the web with Google</h2>
          <input id="uv-search-engine" value="https://www.google.com/search?q=%s" type="hidden"/> 

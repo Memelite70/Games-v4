@@ -5,7 +5,8 @@ body {
     margin: 0;
     font-family: "Outfit", sans-serif;
     text-align: center;
-    background-color: #0d0d0d;
+    background: url("/assets/bg-blue.jpg");
+  background-size: cover;
 }
 
 .banner {

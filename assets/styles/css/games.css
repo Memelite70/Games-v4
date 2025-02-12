@@ -23,11 +23,11 @@
 }
 .gameframebig img:hover{
   transform: scale(0.925);
-  box-shadow: 0 0 0 3px var(--color-1);
-  background-color: var(--color-1);
+  box-shadow: 0 0 0 3px #6056ad;
+  background-color: #6056ad;
   filter: brightness(0.85); 
 }
-.gameframebigtext{
+.rotating-text{
   display: none;
   clear: both;
   text-align: center;
@@ -64,10 +64,20 @@
 
 
 }
+	.gameframe .gameframe img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 1.2em;
+	color: white;
+	opacity: 0;
+	transition: opacity 0.3s ease;
+	}
 .gameframe img:hover{
   transform: scale(0.925);
-  box-shadow: 0 0 0 3px var(--color-1);
-  background-color: var(--color-1);
+  box-shadow: 0 0 0 3px #6056ad;
+  background-color: #6056ad;
   filter: brightness(0.85); 
 }
 .gameframetext{
@@ -134,7 +144,7 @@ float: right;
     z-index: 1000000;
 }
 .gameUIbar{
-  align-items: center; justify-content: center;background-color: #d0d0d0; width: 55%; height: 55px; border-bottom-left-radius: 30px; border-bottom-right-radius: 30px; box-shadow: 0 0 0 3px #d0d0d0;
+  align-items: center; justify-content: center; background: linear-gradient(180deg, #6056ad, #23a6d5);; width: 55%; height: 55px; border-bottom-left-radius: 30px; border-bottom-right-radius: 30px; box-shadow: 0 0 0 3px #6056ad;
 }
 .gameUIbutton{
   float: right;
@@ -181,7 +191,7 @@ height: 4.1em;
 width: 12.3em;
 opacity: 0.8;}
 .gameframe_frame{
-  background-color: #d0d0d0;  width: 55%; height: 55%; box-shadow: 0 0 0 3px #d0d0d0;  transform: translateY(0px);
+  background-color: #d0d0d0;  width: 55%; height: 55%; box-shadow: 0 0 0 3px #6056ad;  transform: translateY(0px);
   
 }
 .gameframe_frame::-webkit-scrollbar {
@@ -193,6 +203,7 @@ opacity: 0.8;}
   scrollbar-width: none;  
 }
 gameframe-framediv{
-  background-color: #d0d0d0;  width: 55%; height: 55%; box-shadow: 0 0 0 3px #d0d0d0; border-top-left-radius: 30px; border-top-right-radius: 30px; transform: translateY(0px); overflow: hidden;
+  background: url("/assets/bg-blue.jpg"); background-size: cover;  width: 55%; height: 55%; box-shadow: 0 0 0 3px #6056ad; border-top-left-radius: 30px; border-top-right-radius: 30px; transform: translateY(0px); overflow: hidden;
   display: inline-block;
 }
+	

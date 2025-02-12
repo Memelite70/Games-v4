@@ -1,4 +1,4 @@
-html{background: #000000;}
+html{background: url("/assets/bg-blue.jpg"); background-size: cover;}
 .searchbar{
   position: absolute;
   top: 50%;

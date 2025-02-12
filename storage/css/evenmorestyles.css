@@ -1,7 +1,6 @@
 body {
-    color: #fff;
-    background: linear-gradient(0deg, #000000 0%, rgba(0,242,255,1) 1200%);
-    background-size: cover;
+    background: url("/assets/bg-blue.jpg");
+  background-size: cover;
     font-family: "Outfit", sans-serif;
     display: flex;
     flex-direction: column;

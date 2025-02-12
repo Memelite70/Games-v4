@@ -14,3 +14,6 @@ async function Do() {
 }
 
 Do();
+document.addEventListener('DOMContentLoaded', function () {
+Do();
+});

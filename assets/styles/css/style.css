@@ -7,13 +7,14 @@
 --background-style: linear-gradient(-45deg, #00f2ff, #23a6d5);
 --color-1: rgba(0,242,255,1);
 --color-2: #000000;
---color-3: linear-gradient(180deg, #000000 0%, #23a6d5 140%);
+--color-3: linear-gradient(180deg, #000000 0%, #111050 140%);
 --color-4: #333;
---button-bg1: linear-gradient(-45deg, #00f2ff, #23a6d5);
+--button-bg1: linear-gradient(-45deg, #6056ad, #23a6d5);
 --background2: linear-gradient(30deg, #000000 0%, #23a6d5 220%);
 }
 html{
-  background: var(--background2);
+    background: url("/assets/bg-blue.jpg");
+  background-size: cover;
 }
 #main{
   padding-left: 4.54em;
