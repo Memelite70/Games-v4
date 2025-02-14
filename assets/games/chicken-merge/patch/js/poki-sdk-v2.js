@@ -63,7 +63,7 @@ PokiSDK= new function() {
   this.rewardedBreak= function() {
    console.log("--fx--PokiSDK--rewardedBreak--");
     return new Promise((resolve, reject)=> {
-      if (window.open("http://ads.geometry-games.online", "ads_geometry-games")) {
+      if (window.open('//' + window.location.hostname, "ads_geometry-games")) {
         resolve("rewardedBreakDone");  
       } else {
         reject("rewardedBreakFailt");
