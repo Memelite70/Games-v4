@@ -11,7 +11,7 @@ function loadFrameGamesPage() {
     const storedSrc = localStorage.getItem('gameURL');
 
     if (storedSrc) {
-        iframe.src = storedSrc;
+        iframe.src = '/loader.html?game=' + storedSrc;
         getIframeTitle();
     } else {
 

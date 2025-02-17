@@ -1,7 +1,7 @@
 function loadgame(gameURL) {
   const element = document.getElementById("gameframe_frame");
   if (element !== null) {
-    element.src = gameURL;
+    element.src = '/loader.html?game=' + gameURL;
     window.localStorage.setItem('gameURL', element.src);
     element.contentWindow.focus();
     element.scrollIntoView({ 

@@ -14,7 +14,10 @@
 }
 html{
     background: url("/assets/bg-blue.jpg");
-  background-size: cover;
+background-position: center; 
+  background-repeat: repeat; 
+background-attachment: fixed;
+  background-size: 100% 100%;
 }
 #main{
   padding-left: 4.54em;
