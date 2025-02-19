@@ -32,10 +32,10 @@ right: 0;
 }
 #advertisement h1{
         color: var(--adcolor1); 
-        font-size: 2em;
+        font-size: 1em;
         text-align: center; 
         display: inline-block;
-  font: 800 6.25vh Arial;
+  font: 600 5vh Arial;
   -webkit-text-fill-color: transparent;
-  -webkit-text-stroke: 0.14vw;
+  -webkit-text-stroke: 0.07vw;
 }
