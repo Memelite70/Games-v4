@@ -1,0 +1,41 @@
+:root {
+--adcolor1: #d0d0d0;
+}
+#advertisement{
+border: 3px solid var(--adcolor1);
+}
+.gamesPage1{
+width: 100%;
+height:200px
+}
+.gamesPage2{
+width: 394px;
+height: 394px;
+display: inline-block;
+vertical-align:top;
+border-radius: 1em;
+}
+.gameFrameDualAdLeft, .gameFrameDualAdRight{
+width: calc(22.5% - 1.77em);
+height: calc(55% + 55px);
+display: inline-block;
+vertical-align:top;
+position: absolute;
+}
+.gameFrameDualAdLeft{
+top: 0;
+left: 3.54em;
+}
+.gameFrameDualAdRight{
+top: 0;
+right: 0;
+}
+#advertisement h1{
+        color: var(--adcolor1); 
+        font-size: 2em;
+        text-align: center; 
+        display: inline-block;
+  font: 800 6.25vh Arial;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 0.14vw;
+}

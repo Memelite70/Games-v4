@@ -1,6 +1,7 @@
 
 @import "nav.css";
 @import "games.css";
+@import "ads.css";
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 :root {
@@ -20,7 +21,7 @@ background-attachment: fixed;
   background-size: 100% 100%;
 }
 #main{
-  padding-left: 4.54em;
+  padding-left: 3.54em;
 }
 h1{
   color: #ffffff;

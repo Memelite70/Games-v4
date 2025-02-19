@@ -191,7 +191,7 @@ height: 4.1em;
 width: 12.3em;
 opacity: 0.8;}
 .gameframe_frame{
-  background-color: #d0d0d0;  width: 55%; height: 55%; box-shadow: 0 0 0 3px #6056ad;  transform: translateY(0px);
+  background-color: #6056ad;  width: 55%; height: 55%; box-shadow: 0 0 0 3px #6056ad;  transform: translateY(0px);
   
 }
 .gameframe_frame::-webkit-scrollbar {
@@ -205,5 +205,8 @@ opacity: 0.8;}
 gameframe-framediv{
   background: url("/assets/bg-blue.jpg"); background-size: cover;  width: 55%; height: 55%; box-shadow: 0 0 0 3px #6056ad; border-top-left-radius: 30px; border-top-right-radius: 30px; transform: translateY(0px); overflow: hidden;
   display: inline-block;
+}
+.gameframe-div{
+display: inline-block;
 }
 	

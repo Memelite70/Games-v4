@@ -12,6 +12,8 @@
         background-size: 100% 100%;
         margin: 0;
         transition: opacity 1s;
+        height: 55%;
+        width: 55%;
     }
 
     p {
@@ -64,7 +66,8 @@ const dots = document.getElementById("dots");
 } else {
   console.error("Element with ID 'dots' not found.");
 }
-
+        const style = document.createElement('style');
+        style.innerHTML = `html::-webkit-scrollbar {display: none;}html {-ms-overflow-style: none; scrollbar-width: none; }`;
         const iframe = document.createElement('iframe');
         iframe.style.position = 'fixed';
         iframe.style.top = '0';
@@ -86,9 +89,31 @@ const dots = document.getElementById("dots");
 </head>
 <body id="fade">
         <center>
-        <div class="loading" style="text-align: center;">
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7431909844582259"
+     crossorigin="anonymous"></script>
+<!-- gameframe-vertical -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-7431909844582259"
+     data-ad-slot="9221426073"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script><div class="loading" style="text-align: center;">
             <p>Loading<span id="dots" class="dots"></span></p>
-        </div>
+        </div><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7431909844582259"
+     crossorigin="anonymous"></script>
+<!-- gameframe-vertical -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-7431909844582259"
+     data-ad-slot="9221426073"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
     </center>
 </body>
 </html>
