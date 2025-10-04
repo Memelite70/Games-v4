@@ -1,3 +1,4 @@
+window.location.href="https://neongames.io";
 function loadgame(gameURL) {
   const element = document.getElementById("gameframe_frame");
   if (element !== null) {
